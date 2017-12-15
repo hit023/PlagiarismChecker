@@ -1,0 +1,19 @@
+*Make sure Python3 is installed on the system.
+
+Run the following to download all the relevant modules from using pip3:
+$ sudo pip3 install wikipedia
+$ sudo pip3 install cPickle
+$ sudo pip3 install numpy
+$ sudo pip3 install nltk
+
+To install 'nltk'-specific modules, open the python interpreter by simply running 'python3' on the terminal. Now,
+>>> nltk.download()
+
+A GUI application opens; under the 'All Packages' section, choose the following:
+1) porter_test
+2) stopwords
+
+To start the GUI, run the following:
+$ python3 GUI.py
+
+** In case of 'module not found' errors, rerun the faulty command by prefixing it with 'sudo' ; PyQt4 and nltk might require this.
